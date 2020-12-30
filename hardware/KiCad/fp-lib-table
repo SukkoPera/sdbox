@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name Arduino)(type KiCad)(uri "/Library/Application Support/kicad/library/Arduino.pretty")(options "")(descr ""))
+  (lib (name Arduino)(type KiCad)(uri /home/sukko/Documents/kicad/lib/arduino-kicad-library/Arduino.pretty)(options "")(descr ""))
+  (lib (name SDBox)(type KiCad)(uri ${KIPRJMOD}/SDBox.pretty)(options "")(descr ""))
 )
