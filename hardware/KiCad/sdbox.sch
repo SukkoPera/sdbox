@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date ""
-Rev ""
+Date "2020-12-30"
+Rev "1S"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -176,7 +176,7 @@ L Device:R_Small R2
 U 1 1 5EBAF827
 P 8250 4700
 F 0 "R2" H 8309 4700 50  0000 L CNN
-F 1 "R_Small" H 8309 4700 50  0001 L CNN
+F 1 "120" H 8309 4700 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8250 4700 50  0001 C CNN
 F 3 "~" H 8250 4700 50  0001 C CNN
 	1    8250 4700
@@ -211,7 +211,7 @@ U 1 1 5EBC446E
 P 1940 5980
 F 0 "J3" H 2020 5976 50  0001 L CNN
 F 1 "Conn_01x01" H 2020 5931 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1940 5980 50  0001 C CNN
+F 2 "SDBox:PinHeader_1x01_P2.54mm_Vertical" H 1940 5980 50  0001 C CNN
 F 3 "~" H 1940 5980 50  0001 C CNN
 	1    1940 5980
 	1    0    0    -1  
@@ -222,7 +222,7 @@ U 1 1 5EBC5D5C
 P 1940 6130
 F 0 "J4" H 2020 6126 50  0001 L CNN
 F 1 "Conn_01x01" H 2020 6081 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1940 6130 50  0001 C CNN
+F 2 "SDBox:PinHeader_1x01_P2.54mm_Vertical" H 1940 6130 50  0001 C CNN
 F 3 "~" H 1940 6130 50  0001 C CNN
 	1    1940 6130
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 5EC49DEA
 P 6965 5830
 F 0 "J5" H 7045 5872 50  0001 L CNN
 F 1 "Conn_01x01" H 7045 5781 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 6965 5830 50  0001 C CNN
+F 2 "SDBox:PinHeader_1x01_P2.54mm_Vertical" H 6965 5830 50  0001 C CNN
 F 3 "~" H 6965 5830 50  0001 C CNN
 	1    6965 5830
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 1 1 5EC4A7EF
 P 7365 5830
 F 0 "J6" H 7445 5872 50  0001 L CNN
 F 1 "Conn_01x01" H 7445 5781 50  0001 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 7365 5830 50  0001 C CNN
+F 2 "SDBox:PinHeader_1x01_P2.54mm_Vertical" H 7365 5830 50  0001 C CNN
 F 3 "~" H 7365 5830 50  0001 C CNN
 	1    7365 5830
 	1    0    0    -1  
@@ -290,7 +290,7 @@ L Device:R_Small R3
 U 1 1 5EB9BBF1
 P 8000 3450
 F 0 "R3" H 8059 3450 50  0000 L CNN
-F 1 "R_Small" H 8059 3405 50  0001 L CNN
+F 1 "4.7k" H 8059 3405 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8000 3450 50  0001 C CNN
 F 3 "~" H 8000 3450 50  0001 C CNN
 	1    8000 3450
@@ -301,7 +301,7 @@ L Device:R_Small R4
 U 1 1 5EB9C4B4
 P 8250 3150
 F 0 "R4" V 8350 3150 50  0000 C CNN
-F 1 "R_Small" H 8309 3105 50  0001 L CNN
+F 1 "120" H 8309 3105 50  0001 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 8250 3150 50  0001 C CNN
 F 3 "~" H 8250 3150 50  0001 C CNN
 	1    8250 3150
@@ -312,7 +312,7 @@ L Device:R_Small R1
 U 1 1 5EB9CA00
 P 7600 4000
 F 0 "R1" V 7496 4000 50  0000 C CNN
-F 1 "R_Small" V 7495 4000 50  0001 C CNN
+F 1 "4.7k" V 7495 4000 50  0001 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 7600 4000 50  0001 C CNN
 F 3 "~" H 7600 4000 50  0001 C CNN
 	1    7600 4000
@@ -403,24 +403,11 @@ L Device:C_Small C1
 U 1 1 5EB53531
 P 7130 2575
 F 0 "C1" H 7038 2575 50  0000 R CNN
-F 1 "C_Small" V 6992 2575 50  0001 C CNN
+F 1 "100u" V 6992 2575 50  0001 C CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7130 2575 50  0001 C CNN
 F 3 "~" H 7130 2575 50  0001 C CNN
 	1    7130 2575
 	-1   0    0    1   
-$EndComp
-Text GLabel 1880 5515 3    50   Input ~ 0
-GND
-$Comp
-L Connector:DB25_Male_MountingHoles J1
-U 1 1 5EA7B824
-P 1880 4115
-F 0 "J1" H 2060 4117 50  0000 L CNN
-F 1 "TO_PARALLEL_PORT" H 1520 2420 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 1880 4115 50  0001 C CNN
-F 3 " ~" H 1880 4115 50  0001 C CNN
-	1    1880 4115
-	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x06_Female U2
@@ -467,4 +454,26 @@ Wire Wire Line
 Connection ~ 7130 2475
 Wire Wire Line
 	7130 2475 7245 2475
+$Comp
+L Connector:DB25_Male J1
+U 1 1 5FF527A9
+P 1880 4115
+F 0 "J1" H 2060 4161 50  0000 L CNN
+F 1 "TO_PARALLEL_PORT" H 2060 4070 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Male_EdgeMount_P2.77mm" H 1880 4115 50  0001 C CNN
+F 3 " ~" H 1880 4115 50  0001 C CNN
+	1    1880 4115
+	1    0    0    -1  
+$EndComp
+$Comp
+L void:Void V0
+U 1 1 5FF7DA7F
+P 6595 7600
+F 0 "V0" H 6673 7646 50  0000 L CNN
+F 1 "Void" H 6673 7555 50  0000 L CNN
+F 2 "Symbol:OSHW-Logo2_9.8x8mm_Copper" H 6595 7600 50  0001 C CNN
+F 3 "" H 6595 7600 50  0001 C CNN
+	1    6595 7600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
