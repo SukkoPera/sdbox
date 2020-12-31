@@ -380,7 +380,7 @@ U 1 1 5FECDF34
 P 4475 4260
 F 0 "U1" H 4475 5497 60  0000 C CNN
 F 1 "Arduino_Nano_V3" H 4475 5391 60  0000 C CNN
-F 2 "Arduino:Arduino_Nano_Socket" H 6275 8010 60  0001 C CNN
+F 2 "SDBox:Arduino_Nano_Socket" H 6275 8010 60  0001 C CNN
 F 3 "https://store.arduino.cc/arduino-nano" H 6275 8010 60  0001 C CNN
 	1    4475 4260
 	1    0    0    -1  

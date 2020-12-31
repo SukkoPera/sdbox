@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/sukko/Documents/kicad/sdbox/hardware/KiCad/sdbox.sch)
-    (date "gio 31 dic 2020, 10:51:40")
+    (date "gio 31 dic 2020, 11:32:04")
     (tool "Eeschema 5.1.9")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -108,7 +108,7 @@
       (tstamp 5EBA7223))
     (comp (ref U1)
       (value Arduino_Nano_V3)
-      (footprint Arduino:Arduino_Nano_Socket)
+      (footprint SDBox:Arduino_Nano_Socket)
       (datasheet https://store.arduino.cc/arduino-nano)
       (libsource (lib arduino) (part Arduino_Nano_Socket) (description "Socket for Arduino Nano"))
       (sheetpath (names /) (tstamps /))
