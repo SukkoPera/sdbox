@@ -1,4 +1,4 @@
-21331414837742919
+21333009596848919
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -74563,6 +74563,13 @@ Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
+SDBox
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
 Sensor_Audio
 CUI_CMC-4013-SMT
 Omnidirectional, -42dB, reflowable, electret condenser microphone https://www.cuidevices.com/product/resource/cmc-4013-smt-tr.pdf
