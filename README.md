@@ -16,12 +16,12 @@ Isn't Open Hardware great?
 ## Usage
 Please refer to [the original project](https://github.com/jbilander/sdbox) for all documentation.
 
-Note that *this board needs external power* which you can provide through the USB connector on your Nano. Choose a Nano with your favorite USB connector flavour, as you can easily find them with MiniUSB, MicroUSB and even USB-C connectors.
+Note that **this board needs external power** which can be provided through the USB connector on your Nano. Choose a Nano with your favorite USB connector flavour, as you can easily find them with MiniUSB, MicroUSB and even USB-C connectors.
 
 ## Assembly
 C1 is not necessary.
 
-I also suggest NOT to install D1. If you do, please note that even though the board will appear to be powered as soon as you connect it to your Amiga, **the current provided will not be enough and it will not function correctly**. If you are adventurous, you can modify your Amiga so that it provides unlimited current on the parallel port, but *this is dangerous and not recommended*, thus I'm not even going to explain how to perform this modification. In normal usage D1 has no purpose and can be skipped.
+I also suggest NOT to install D1. If you do, please note that even though the board will appear to be powered as soon as you connect it to your Amiga, **the current provided will not be enough and it will not function correctly**. If you are adventurous, you can modify your Amiga so that it provides unlimited current on the parallel port, but **this is dangerous and not recommended**, thus I'm not even going to explain how to perform this modification. In normal usage D1 has no purpose and can be skipped.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/sdbox/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
