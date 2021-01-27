@@ -4,7 +4,7 @@ sdbox is a device that allows connecting an SD card to the parallel port of an A
 ![Board](https://raw.githubusercontent.com/SukkoPera/sdbox/master/img/render-top.png)
 
 ## Summary
-This is just my customization of [the original project by Jorgen Bilander and Niklas Ekström](https://github.com/jbilander/sdbox). I had many of the components it needs in a different size/format, so I just changed the PCB to use those, which means:
+This is just my customization of [the original project by Jorgen Bilander and Niklas Ekström](https://github.com/jbilander/sdbox). I already had many of the components it needs in a different size/format and I didn't want to buy other ones, so I just changed the PCB to use those, which means:
 - Use DB-25 edge connector
 - Use 0805 resistors
 - Use SOT-23 BJTs
