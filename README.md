@@ -21,7 +21,7 @@ Note that **this board needs external power** which can be provided through the 
 ## Assembly
 C1 is not necessary.
 
-I also suggest NOT to install D3. If you do, please note that even though the board will appear to be powered as soon as you connect it to your Amiga, **the current provided will not be enough and it will not function correctly**. If you are adventurous, you can modify your Amiga so that it provides unlimited current on the parallel port, but **this is dangerous and not recommended**, thus I'm not even going to explain how to perform this modification. In normal usage D3 has no purpose and can be skipped.
+I also suggest NOT to install D3. If you do, please note that even though the board will appear to be powered as soon as you connect it to your Amiga, **the current provided will not be enough and it will not function correctly**. If you experience hangs, *bad number* errors or anything odd, this is likely the cause. If you are adventurous, you can modify your Amiga so that it provides unlimited current on the parallel port, but **this is dangerous and not recommended**, thus I'm not even going to explain how to perform this modification. In the recommended usage D3 has no purpose and can be skipped.
 
 ## Releases
 If you want to get this board produced, you are recommended to get [the latest release](https://github.com/SukkoPera/sdbox/releases) rather than the current git version, as the latter might be under development and is not guaranteed to be working.
