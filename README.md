@@ -14,7 +14,7 @@ This is just my customization of [the original project by Jorgen Bilander and Ni
 Isn't Open Hardware great?
 
 ## Usage
-Please refer to [the original project](https://github.com/jbilander/sdbox) for all documentation.
+Please refer to [the original project](https://github.com/jbilander/sdbox) for all documentation, firmware, drivers, etc.
 
 Note that **this board needs external power** which can be provided through the USB connector on your Nano. Choose a Nano with your favorite USB connector flavour, as you can easily find them with MiniUSB, MicroUSB and even USB-C connectors.
 
@@ -34,4 +34,6 @@ sdbox is Open Hardware released under the GNU General Public License (GPL) v3. I
 sdbox is provided to you ‘as is’ and without any express or implied warranties whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties of merchantability, fitness for a particular purpose or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
 
 ## Thanks
-Thanks to Jorgen Bilander and Niklas Ekström for their work.
+- Thanks to Jorgen Bilander and Niklas Ekström for their work.
+- 3D model of MicroSD module by [john](https://grabcad.com/library/sd-card-reader-4)
+- 3D model of Arduino Nano by [Andrew_Whitham](https://grabcad.com/library/arduino-nano--1)
